@@ -1,0 +1,11 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 90%;
+    background-color: yellowgreen;
+    margin: 0px auto;
+    padding: 20px;
+}
