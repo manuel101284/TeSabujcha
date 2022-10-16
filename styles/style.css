@@ -158,5 +158,24 @@ footer .footer-1{
     margin: 0px auto;
     padding: 20px;
 }
-/* footer fin */
 
+.logo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: -3%;
+    padding: 5px;
+
+}
+.nav{
+    text-decoration: none;
+    color: #333;
+    padding:  12px;
+    font-size: 12px;
+}
+.usd{
+    align-content: flex-end;
+    padding: 10px;
+    margin-left: 95%;
+    margin-top: -3%;
+}
