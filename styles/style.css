@@ -21,34 +21,126 @@ body{
 /* header fin */
 
 /* container inicio */
-.container{
+.container{  /* Modifica el contenedor para todo el documento*/
     width: 90%;
-    background-color: lightgray;
+    background-color: #ffffff;
     margin: 0px auto;
     padding: 0px;
 }
-.Portada{
+.titulo-1,
+.titulo-2,
+.titulo-3,
+.tiutlo-4{ /* Modifica ls títulos de la pagina principal, con la fuente y tamaño adeucados */
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+}
+.texto-1{ /* Modifica el texto de ciertos apartados que explican los productos*/
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+}
+.Portada{ /* Crea un contenedor para la foto de la portada y el texto que contiene */
     justify-content: center;
     position: relative;
     display: block;
     text-align: center;
-    justify-content: center;
 }
-.texto-portada-1{
+.texto-portada-1{ /* Adecua el texto de la portada según requerimientos */
     font-family: 'Playfair Display', serif;
     font-size: 50px;
+    color: #333;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.texto-portada-1>.texto-portada-2{
+.texto-portada-1>.texto-portada-2{ /* Adecua el texto de la portada según requerimientos */
     font-family: 'Work Sans', sans-serif;
     font-size: 20px;
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.descuentos{ /* Modifica la sección de descuentos de la pagina*/
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 100px auto;
+}
+.descuentos>.descuento-1,
+.descuentos>.descuento-2{ /* Modifica el texto y la imagen de la sección descuentos*/
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    display: block;
+    text-align: left;
+}
+#desc11,
+#desc21{ /* Modifica el texto y la imagen de la sección descuentos*/
+    font-family: 'Lora', serif;
+    font-size: 44px;
+    position: relative;
+    top: -50%;
+    left: 5%;
+    text-align: left;
+    color: #529F0F;
+}
+#desc12,
+#desc22{ /* Modifica el texto y la imagen de la sección descuentos*/
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    text-align: left;
+    color: #333;
+}
+.latest-products{ /* Modifica el texto y la imagen de la sección últimos productos*/
+    justify-content: center;
+    position: relative;
+    display: block;
+    text-align: center;
+
+}
+.lat-prod-1{ /* Modifica el texto y la imagen de la sección últimos productos*/
+    text-align: center;
+    justify-content: center;
+}
+.lp{ /* Modifica el texto y la imagen de la sección últimos productos*/
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#fondo-02.latest-products{
+    object-fit: cover;
+}
+.latp-1{ /* Modifica el texto y la imagen de la sección últimos productos*/
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    margin: 100px auto;
+    justify-content: space-around;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.product-1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #575757;
+    text-align: left;
+}
+.product-2{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #575757;
+    text-align: left;
 }
 
 /* container fin */
@@ -60,10 +152,11 @@ body{
     margin: 0px auto;
     padding: 0px;
 }
-/* footer fin */
-.container{
+footer .footer-1{
     width: 90%;
     background-color: yellowgreen;
     margin: 0px auto;
     padding: 20px;
 }
+/* footer fin */
+
