@@ -9,6 +9,8 @@
 
     <!-- Fuentes -->
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href=
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
 </head>
 <body>
@@ -20,11 +22,11 @@
                 <img src="Recursos/Imagenes/logo.png">
             </div>
             <div id="h1">
-                <a class="nav" href="#"><b>HOME</b></a>
-                <a class="nav" href="#"><b>ABOUT</b></a>
-                <a class="nav" href="#"><b>BLOG</b></a>
-                <a class="nav" href="#"><b>PAGES</b></a>
-                <a class="nav" href="#"><b>CONTACT</b></a>
+                <a class="nav" href="#">HOME</a>
+                <a class="nav" href="#">ABOUT</a>
+                <a class="nav" href="#">BLOG</a>
+                <a class="nav" href="#">PAGES</a>
+                <a class="nav" href="#">CONTACT</a>
                 <button>| USD V 🛒</button>
             </div>
         </div>        
@@ -43,17 +45,21 @@
     <!--seccion de Nature Close Tea-->
     <section>
         
-        <div class="close">
+        <div class="close">   
             <div class="flex">
             <div class="produc">
-                <img class="prona" width="30%"  src="Recursos/Imagenes/product-1.jpg">
+                <img class="prona" width="200%"  src="Recursos/Imagenes/product-detalis-l1.jpg">
+                <div class="circulo">
+                    <p class="circle">-29%</p>
+                </div>
             </div>
             <div class="Nature">
                 <p class="text-natu">
                     Nature Close Tea
                 </p>
-                
-                <form> <p class="clasificacion">
+<!-- las estrellas-->
+                <form> 
+                    <p class="clasificacion">
                     <input id="radio1" type="radio" name="estrellas" value="5">
                     <label for="estrellas">★</label>
                     <input id="radio2" type="radio" name="estrellas" value="4">
@@ -93,10 +99,138 @@
             </div>
             <div class="botones">
                 <p>
-                    Qty 
+                    Qty: 
                 </p>
                 <p class="two">02</p>
                 <p class="car">🛒</p>
                 <p class="cor">🤍</p>
+
+                <!--z-index: 1; para poner el sirculo verde de descuento en sima de la imaen -->
             </div>
+            <p class="block cate">Categories: Green,Herbal, Loose, Mate, Organic</p>
+            <p class="block catego">Tags: Oolong,Pu'erh, Dark,Special</p>
+               
+            <!--Botones de redes sociales Redes sociales -->
+            <center class="redes">
+                    <!-- Add font awesome icons -->
+                    <a href="#" class="fa fa-twitter">Tweet</a>
+                    <a href="#" class="fa fa-facebook">Share</a>
+                    <a href="#" class="fa fa-google-plus">google+</a>
+                    <a href="#" class="fa fa-pinterest">Pinterest</a>
+                </center>
+
+                 <!--Tarjetas Pequellas de la seccion nature-->
+                <div class="mini">
+                <img class="detalist" width="6%" src="Recursos/Imagenes/product-detalis-s1.jpg">
+                <img class="detalist" width="6%" src="Recursos/Imagenes/product-detalis-s2.jpg">
+                <img class="detalist" width="6%" src="Recursos/Imagenes/product-detalis-s3.jpg">
+                <img class="detalist" width="6%" src="Recursos/Imagenes/product-detalis-s4.jpg">
+            </div>
+            <p class="cam"><</p>
+            <p class="cam-two">></p>
+        </section> <br>
+<!--Seccion de descripcion, Tags, Review-->
+
+    <section>
+        <div class="desc">
+            <a class="crip-20" href="#">Descripcion</a>
+            <a class="crip" href="#">Tags</a>
+            <a class="crip" href="#">Review</a>
+        </div>
+        <hr class="hr">
+        <br>
+        <p class="let">
+            <br>
+            Duis autem vel eum iriure dolor in herdrerit in vulputate valit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugiat nulla facilisis.Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem.<br class="br">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur eius quos maxime eos expedita ullam voluptate quidem beatae praesentium. Molestias eos sunt nesciunt eaque voluptates laudantium natus sed, non voluptatibus.
+            <br class="br-1">
+                -Typi non habent claritatem insitam
+                <br class="br-1">
+                -Est usus legentis in iis qui facit eorum claritatem.
+                <br class="br-12">
+                -Investigaciones demonstraverunt lectores legere me lius quod ii legunt saepius.
+                <br class="br-1">
+                -Claritas est etiam processus dynamicus,qui sequitur matationem consuetium lectorum. 
+        </p>
+    </section> <br class="br"><br>
+    <!--Seccion Related Products-->
+    <section>
+        <p class="rela">Related Product</p>
+        <div class="taje">
+            <div>
+                <img class="recu" src="Recursos/Imagenes/product-1.jpg">
+                <p class="tiitle">Le Bongai Tea</p>
+                <p class="pree">$100.00- <del>$120.00</del></p>
+                <div class="grecir">
+                    <p class="bolita">-30%</p>
+                </div>
+            </div>
+            <div>
+                <img class="recu" src="Recursos/Imagenes/product-2.jpg">
+                <P class="tiitle">Society ice Tea</P>
+                <p class="pree">$100.00- <del>$120.00</del></p>
+            </div>
+            <div>
+                <img  class="recu"src="Recursos/Imagenes/product-3.jpg">
+                <p class="tiitle">Green Tea Tulsi</p>
+                <p class="pree">$100.00- <del>$120.00</del></p>
+                <div class="grecir">
+                    <p class="bolita">-30%</p>
+                </div>
+            </div>
+            <div>
+                <img class="recu" src="Recursos/Imagenes/product-4.jpg">
+                <p class="tiitle">Best Friends Tea</p>
+                <p class="pree">$100.00- <del>120.00</del></p>
+            </div>
+        </div>
     </section>
+    <!--el footer-->
+    <section class="bagra">
+        <div class="footer">
+        <div class="footter">
+        <p class="tail" href="#">My Account</p>
+        <a href="#" class="ler">My Account</a><br>
+        <a href="#" class="ler">Order History</a><br>
+        <a href="#" class="ler">WishList</a><br>
+        <a href="#" class="ler">Newsletter</a><br>
+        <a href="#" class="ler">Order History</a><br>
+        <a href="#" class="ler">International Orders</a><br>
+    </div>
+    <div class="footter">
+        <p class="tail" href="#">Information</p>
+        <a href="#" class="ler">About Us</a><br>
+        <a href="#" class="ler">Delivery Informacion</a><br>
+        <a href="#" class="ler">Privacy Policy</a><br>
+        <a href="#" class="ler">Terms & Conditions</a><br>
+        <a href="#" class="ler">Customer Service</a><br>
+        <a href="#" class="ler">Return Policy</a><br>
+    </div>
+    <div class="footter">
+        <p class="tail" href="#">Quick Links</p>
+        <a href="#" class="ler">Support Center</a><br>
+        <a href="#" class="ler">Term & Conditions</a><br>
+        <a href="#" class="ler">Shipping</a><br>
+        <a href="#" class="ler">Privacy Policy</a>
+        <a href="#" class="ler">Help</a><br>
+        <a href="#" class="ler">FAQS</a><br>
+    </div>
+    <div class="footter">
+        <p class="tail" href="#">Contactos</p>
+        <p class="ler">Your address goes here</p><br>
+        <p class="ler">0123456789</p>
+        <p class="ler">0123456789</p><br>
+        <p class="ler">demo@example.com</p>
+        <p class="ler">demo@example.com</p>
+    </div>
+</div>
+</section>
+
+<footer class="forpa">
+    <p>© 2021<b>Sabujcha</b>Made with ❤️ By <b>HasThemes</b></p>
+    <div class="forpa">
+    <img src="Recursos/Imagenes/payment.png">
+</div>
+</footer>
+</body>
+</html>
