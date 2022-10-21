@@ -7,7 +7,7 @@
 } */
 
 .container{
-    width: 90%;
+    width: 100%;
     margin: 0px auto;
     padding: 0px;
 }
@@ -26,6 +26,12 @@
     justify-content: space-between;
     justify-items: flex-end;
     margin-top: 2%;
+}
+button{
+    border: transparent;
+    background-color: transparent;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
 }
 
 /*contenedor de portada*/
@@ -54,6 +60,12 @@
     font-family: 'Work Sans', sans-serif;
     font-size: 150%;
 }
+.fa-chevron-down{
+    color: #333;
+}
+.fa-shopping-cart{
+    color: #333;
+}
 
 /* Contenido de Nature Clouse Tea */
 
@@ -61,13 +73,13 @@
     margin: 10% 0% 6% 6%;
     border: 1px solid rgba(51, 51, 51, 0.188);
     width: 450px;
-    position: relative;
+
 }
 
 .Nature{
     display: block;
     position: absolute;
-    margin-top: -31%;
+    margin-top: -40%;
     margin-left: 42%;
 }
 .text-natu{
@@ -136,7 +148,9 @@ font-family: 'Lora', serif;
 hr{
     border: 0;
     height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background: rgba(51, 51, 51, 0.09);
+    background-image: linear-gradient(to right, rgba(204, 204, 204, 0.19), rgba(51, 51, 51, 0.258), rgba(204, 204, 204, 0.235));
+    margin-right: 5%;
 }
 
 .botones{
@@ -145,7 +159,7 @@ hr{
     flex-direction: row;
     justify-content: space-between;
     margin-left: 45%;
-    margin-top: -12%;
+    margin-top: -13%;
     gap: 20px;
     
 }
@@ -160,22 +174,259 @@ hr{
 .car{
     display: block;
     background: rgba(51, 51, 51, 0.257);
-    padding: 8px;
+    padding: 8px 10px;
 }
 .car:hover{
     display: block;
     border: 1px solid rgba(51, 51, 51, 0.558);
     background: rgba(51, 51, 51, 0.024);
-    padding: 8px;
+    padding: 8px 10px;
 }
 .cor{
     display: block;
     background: rgba(51, 51, 51, 0.257);
-    padding: 8px;
+    padding: 8px 10px;
+    color: #ffffff;
 }
 .cor:hover{
     display: block;
     border: 1px solid #333;
     background: rgba(51, 51, 51, 0.024);
-    padding: 8px;
+    padding: 8px 10px;
+    color: #333;
+}
+.close{
+    margin: 20px;
+    position: static;
+}
+
+.cate{
+    font-family: 'Lora', serif;
+    margin-left: 42%;
+    margin-top: -10%;
+}
+.catego{
+    font-family: 'Lora', serif;
+    margin-left: 42%;
+    margin-top: -8%;
+}
+/* buttom de redes sociales*/
+.redes{
+    margin-left: 20%;
+    margin-top: -6%;
+}
+
+.fa{
+    text-decoration: none;
+    gap: 5px
+}
+.fa-twitter{
+    background-color: #00acee;
+    color: white;
+    padding: 8px 20px 8px 20px;
+    margin: 5px;
+}
+.fa-facebook{
+    background-color: #3b5998;
+    color: white;
+    padding: 8px 20px 8px 20px;
+    margin: 5px;
+}
+.fa-google-plus{
+    background-color: #db4a39;
+    color: white;
+    padding: 8px 20px 8px 20px;
+    margin: 5px;
+}
+.fa-pinterest{
+    background-color: #c8232c;
+    color: white;
+    padding: 8px 20px 8px 20px;
+    margin: 5px;
+}
+.mini{
+    display:inline;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 8%;
+    position: static;
+}
+.detalist{
+    border: 1px solid rgba(51, 51, 51, 0.136);
+    margin: 0px 8px;
+    margin-top: -2%;
+}
+.cam{
+    font-family: 'Lora', serif;
+    font-size: 300%;
+    margin-left: 6%;
+    margin-top: -6%;
+    color: rgba(51, 51, 51, 0.407);
+    position: static;
+}
+.cam-two{
+    font-family: 'Lora', serif;
+    font-size: 300%;
+    margin-left: 39%;
+    margin-top: -5%;
+    color: rgba(51, 51, 51, 0.407);
+    position: static;
+}
+/*seccion Descripcion, Tags, Review*/
+.desc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+    margin: 5% 40%;
+    justify-content: center;
+    font-family: 'Lora', serif;
+}
+.crip{
+    text-decoration: none;
+    font-family: 'Lora', serif;
+    color: #333;
+}
+.crip-20{
+    color: #529F0F;
+    padding: 2px 0px 15px 0px;
+    text-decoration: none;
+    border-block-end: 2px solid #529F0F;
+}
+.let{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Lora', serif;
+}
+.hr{
+    border: 0;
+    height: 1px;
+    background: rgba(51, 51, 51, 0.09);
+    background-image: linear-gradient(to right, rgba(204, 204, 204, 0.233), rgba(51, 51, 51, 0.147), rgba(204, 204, 204, 0.243));
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -5%;
+    position: static;
+}
+.br{
+    line-height: 50px;
+}
+.br-1{
+    line-height: 60px;
+}
+.br-12{
+    line-height: 10px;
+}
+/*Seccion Related Product*/
+.rela{
+    text-decoration:underline;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    margin-left: 9%;
+}
+
+.circulo{
+    display:inline-flex;
+    background-color: #529F0F;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    top: -460px;
+    margin-left: -32%;
+    position: relative;
+    z-index: 1;
+
+}
+.circle{
+    padding: 14px 8px;  
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    font-weight: 900;
+    color: #ffffff; 
+}
+.taje{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 2%;
+    justify-content: center;
+}
+.recu{
+    border: 1px solid rgba(51, 51, 51, 0.298);
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.tiitle{
+    font-family: 'Work Sans', sans-serif;
+    line-height: 40px;
+}
+.cuad{
+    display: block;
+
+}
+.pree{
+    font-family: 'Lora', serif;
+}
+del{
+    color: rgba(51, 51, 51, 0.681);
+}
+
+.footer{
+    display: block;
+    justify-content: right;
+    right: 800px;  
+    margin: 20px 80px;
+    }
+.footter{
+    display:inline-table;
+        justify-content: space-between;
+        align-content: center;
+        padding: 50px;
+        line-height: 30px;
+}
+.tail{
+    font-family: 'Playfair Display',serif;
+    font-size: 20px;
+}
+.ler{
+    font-family: 'Lora', serif;
+    text-decoration: none;
+    color: #333;
+}
+.forpa{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    gap: 50%;
+
+}
+.bagra{
+    background-image: url(../Recursos/Imagenes/bg-1.jpg)
+}
+
+.grecir{
+    display:flex;
+    justify-items: center;
+    align-items: center;
+    background-color: #529F0F;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    top: -310px;
+    margin-left: 25px;
+    position:relative; 
+    z-index: 1;
+}
+.bolita{
+    padding: 14px 8px;  
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    align-items: center;
+    color: #ffffff;
 }
