@@ -29,12 +29,12 @@ Que cosas necesitas para instalar el software y como verla en el dispositivo loc
 ### Instalación 🔧
 
 - Version Desktop
-![App Screenshot](../TeSabujcha/Recursos/Desktop/Homepage.png)
-![App Screenshot](../TeSabujcha/Recursos/Desktop/P%C3%A1gina%20de%20Producto.png)
+![App Screenshot](https://drive.google.com/drive/folders/15O58LqLTld3vrdly4R1xSWiiGY_Oe8gX)
+![App Screenshot](https://drive.google.com/drive/folders/15O58LqLTld3vrdly4R1xSWiiGY_Oe8gX)
 
 - Version Movile
-![App Screenshot](../TeSabujcha/Recursos/Mobile/Home%20mobile%201.png)
-![App Screenshot](../TeSabujcha/Recursos/Mobile/Producto%20mobile%201.png)
+![App Screenshot](https://drive.google.com/drive/folders/1o2P3HVosRcUWgLTZDDzQxqDixe4NMcUa)
+![App Screenshot](https://drive.google.com/drive/folders/1o2P3HVosRcUWgLTZDDzQxqDixe4NMcUa)
 
 ## Despliegue 📦
 
