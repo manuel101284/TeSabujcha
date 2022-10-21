@@ -7,7 +7,7 @@
 } */
 
 .container{
-    width: 90%;
+    width: 100%;
     margin: 0px auto;
     padding: 0px;
 }
@@ -60,6 +60,12 @@ button{
     font-family: 'Work Sans', sans-serif;
     font-size: 150%;
 }
+.fa-chevron-down{
+    color: #333;
+}
+.fa-shopping-cart{
+    color: #333;
+}
 
 /* Contenido de Nature Clouse Tea */
 
@@ -73,7 +79,7 @@ button{
 .Nature{
     display: block;
     position: absolute;
-    margin-top: -31%;
+    margin-top: -40%;
     margin-left: 42%;
 }
 .text-natu{
@@ -153,7 +159,7 @@ hr{
     flex-direction: row;
     justify-content: space-between;
     margin-left: 45%;
-    margin-top: -12%;
+    margin-top: -13%;
     gap: 20px;
     
 }
@@ -168,24 +174,26 @@ hr{
 .car{
     display: block;
     background: rgba(51, 51, 51, 0.257);
-    padding: 8px;
+    padding: 8px 10px;
 }
 .car:hover{
     display: block;
     border: 1px solid rgba(51, 51, 51, 0.558);
     background: rgba(51, 51, 51, 0.024);
-    padding: 8px;
+    padding: 8px 10px;
 }
 .cor{
     display: block;
     background: rgba(51, 51, 51, 0.257);
-    padding: 8px;
+    padding: 8px 10px;
+    color: #ffffff;
 }
 .cor:hover{
     display: block;
     border: 1px solid #333;
     background: rgba(51, 51, 51, 0.024);
-    padding: 8px;
+    padding: 8px 10px;
+    color: #333;
 }
 .close{
     margin: 20px;
@@ -339,7 +347,7 @@ hr{
 .taje{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-left: 8%;
     margin-right: 8%;
     margin-top: 2%;
@@ -347,8 +355,8 @@ hr{
 }
 .recu{
     border: 1px solid rgba(51, 51, 51, 0.298);
-    width: 70%;
-    display: inline-block;
+    width: 90%;
+    display: flex;
     flex-direction: row;
 }
 
@@ -360,8 +368,7 @@ hr{
 }
 .cuad{
     display: block;
-    align-content: center;
-    align-content: center;
+
 }
 .pree{
     font-family: 'Lora', serif;
@@ -408,18 +415,18 @@ del{
     justify-items: center;
     align-items: center;
     background-color: #529F0F;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 25px;
-    top: -258px;
-    margin-left: 12px;
+    top: -310px;
+    margin-left: 25px;
     position:relative; 
     z-index: 1;
 }
 .bolita{
     padding: 14px 8px;  
     font-family: 'Lora', serif;
-    font-size: 10px;
+    font-size: 15px;
     align-items: center;
     color: #ffffff;
 }
