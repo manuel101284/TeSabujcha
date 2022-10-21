@@ -55,12 +55,12 @@ body{
 }
 #hdr-usd>.fa-chevron-down{
     display: inline-block;
-    background-color: #000;
+    color: #000;
     margin-left: 0px 10px 0px 10px;
 }
 #hdr-usd>.fa-shopping-cart{
     display: inline-block;
-    background-color: #000;
+    color: #000;
     margin-left: 0px 10px 0px 10px;
 }
 #hdr-logo{
@@ -580,12 +580,12 @@ a.lleerr{
     }
     #hdr-usd>.fa-chevron-down{
         display: inline-block;
-        background-color: #000;
+        color: #000;
         margin-left: 0px 10px 0px 10px;
     }
     #hdr-usd>.fa-shopping-cart{
         display: inline-block;
-        background-color: #000;
+        color: #000;
         margin-left: 0px 10px 0px 10px;
     }
     .hdr-bttn-1{
