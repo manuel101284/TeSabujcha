@@ -445,7 +445,7 @@ body{
     position: relative;
 }
 
-.circulo{
+.circulooo{
     display: block;
     background-color: #529F0F;
     width: 50px;
@@ -456,7 +456,7 @@ body{
     margin-left: 8%;
     margin-bottom: 82%;
 }
-.circulo>.precio-desc{
+.circulooo>.precio-desc{
     display: block;
     position: relative;
     padding: 14px 8px;  
@@ -962,7 +962,7 @@ a.lleerr{
         position: relative;
     }
 
-    .circulo{
+    .circulooo{
         display: block;
         background-color: #529F0F;
         width: 50px;
@@ -973,7 +973,7 @@ a.lleerr{
         margin-left: 8%;
         margin-bottom: 82%;
     }
-    .circulo>.precio-desc{
+    .circulooo>.precio-desc{
         display: block;
         position: relative;
         padding: 14px 8px;  
